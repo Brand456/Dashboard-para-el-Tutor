@@ -1,0 +1,24 @@
+.create_container {
+  border-radius: 5px;
+  background-color:rgb(31, 32, 33);
+  margin: 18px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px rgb(31, 32, 33);
+}
+
+.two.columns {
+  width: 13.3333333333%;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both;
+}
