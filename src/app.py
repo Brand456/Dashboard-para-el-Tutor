@@ -224,7 +224,7 @@ html.Div([
     [  # Envuelve todo el contenido de la tarjeta en una lista
 
         dbc.CardHeader([   
-            html.H6("Promedio",
+            html.H6("No. De alumnos",
                 style={
                     'textAlign': 'center',
                     'color': 'white',
